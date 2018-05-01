@@ -1,0 +1,31 @@
+.card {
+    margin-top: 255px;
+    margin-bottom: 242px;
+}
+.card .card-title {
+    color: black;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: initial;
+}
+.card-header {
+
+    height: 38px;
+}
+.card-block{}
+.card-title{}
+.card-text {
+    font-family: initial;
+}
+.card-btn{}
+.card-footer{}
+.card-footer p {
+    font-size: 18px;
+    font-family: initial;
+    padding: 8px;
+    margin-top: 21px;
+}
+h5 {
+    font-family: initial;
+    font-weight: bold;
+}

@@ -1,0 +1,345 @@
+@media only screen and (min-width:200px)and (max-width:319px){
+#icon-one {
+    color: #D57903;
+    font-size: 16px;
+    padding-left: 4%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.header {
+    margin-bottom: 49.4px;
+}	
+.mega {
+    font-size: 16px;
+    color: #E2763D;
+    font-weight: bold;
+}	
+.header-nav-list {
+    float: left !important;
+    width: 109%;
+}
+
+.top-col h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 180px;
+    font-weight: bold;
+    color: wheat;
+}
+.top-col h3 {
+    text-align: center;
+    font-family: initial;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.top-btn-style {
+    width: 69px;
+    font-size: 9px;
+    font-weight: bold;
+}
+.search-btn {
+    background-color: #30CFC0;
+    font-size: 11px;
+    width: 0px;
+    padding-left: 0px;
+}
+.book-search {
+    height: 40.7px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.search-btn {
+    background-color: #30CFC0;
+    font-size: 11px;
+    width: 30px;
+    padding-left: 4px;
+    color: white;
+    font-weight: bold;
+}
+.top-btn-style {
+    width: 69px;
+    font-size: 9px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+.top-col {
+    margin-top: -91px;
+}
+.top-col h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 326px;
+    font-weight: bold;
+    color: wheat;
+}
+	
+.body-col-two {
+    width: 80%;
+}
+.owl-item li{}
+.card-right{}
+#book-link{}
+.body-row {
+    margin-top: -5px;
+}
+.card-left {
+    background-color: #105EBE;
+    width: 184px;
+    height: 184px;
+    margin-left: -22px;
+    margin-top: 33px;
+}
+#owl-book {
+    margin-left: -15px;
+    margin-top: 7px;
+}
+#book-img {
+    width: 89px;
+    height: 182.9px;
+    margin-left: -15px;
+    border: 1px solid #DD4B38;
+}
+.body-col-two {
+    width: 122%;
+    margin-left: -5px;
+}
+.play {
+    margin-left: -16px;
+}
+#line {
+    height: 55px;
+    width: 128%;
+    margin-left: -21px;
+    margin-top: -4px;
+    margin-bottom: 76px;
+}
+
+.footer-col h4 {
+    text-align: center;
+    color: white;
+    font-family: initial;
+    font-size: 156%;
+}
+.footer-col ul {
+    margin-left: -21px;
+}
+.footer-col ul li a button {
+    width: 1px;
+    padding-left: 11px;
+}
+.footer-col ul li {
+    float: left;
+    width: 42px;
+   
+}
+#fb-icon {
+    color: white;
+    font-size: 13px;
+}
+#tw-icon{color:white;font-size: 13px;}
+#google-icon{color:white;font-size: 13px;}
+#like-icon{color:white;font-size: 13px;}
+.footer-col-two h5 {
+    text-align: right;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 88%;
+    color: white;
+}
+.right-card-right h5 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: initial;
+    margin-top: -158px;
+    margin-left: 85px;
+}
+.right-card-right h6 {
+    color: rosybrown;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: initial;
+    margin-top: 17px;
+    margin-left: 86px;
+}
+.right-card-right h4 {
+    color: snow;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: initial;
+    margin-top: 17px;
+    margin-left: 87px;
+}
+
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+#icon-one {
+    color: #D57903;
+    font-size: 26px;
+    padding-left: 9%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.mega {
+    font-size: 24px;
+    color: #E2763D;
+    font-weight: bold;
+}	
+#icon-one {
+    color: #D57903;
+    font-size: 26px;
+    padding-left: 2%;
+    padding-top: 8px;
+    font-weight: bold;
+}	
+.header {
+    margin-bottom: 49.4px;
+}	
+.header-nav-list {
+    float: left !important;
+    width: 110%;
+}	
+.top-col h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 112px;
+    font-weight: bold;
+    color: wheat;
+}
+.top-col h3 {
+    text-align: center;
+    font-family: initial;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}	
+.body-row {
+    margin-top: 42px;
+}
+.card-left {
+    background-color: #105EBE;
+    width: 184px;
+    height: 184px;
+    margin-left: 41px;
+    margin-bottom: 19px;
+}
+.body-col-two {
+    width: 73%;
+    margin-left: 42px;
+}
+.right-card-right h6 {
+    color: rosybrown;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: initial;
+    margin-top: -79px;
+    margin-left: 97px;
+}
+.right-card-right h5 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: initial;
+    margin-top: -128px;
+    margin-left: 97px;
+}
+.right-card-right h4 {
+    color: snow;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: initial;
+    margin-top: 79px;
+    margin-left: 96px;
+}
+.stop{
+    margin-left: -9px;
+}
+#line {
+    height: 68px;
+    width: 116%;
+    margin-left: -24px;
+    margin-top: -7px;
+    margin-bottom: 100px;
+}
+.footer-col ul li {
+    float: left;
+    padding-left: 10px;
+    width: 74px;
+}
+
+.footer-col ul {
+    margin-left: -37px;
+}
+.footer-col ul li a button {
+    width: 51px;
+}
+#google-icon {
+    color: white;
+    font-size: 16px;
+}
+.footer {
+    background-color: #00305B;
+    height: 205px;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+#icon-one {
+    color: #D57903;
+    font-size: 26px;
+    padding-left: 0%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.mega {
+    font-size: 26px;
+    color: #E2763D;
+    font-weight: bold;
+}
+.navbar-fixed-top .navbar-nav > li {
+    color: #666666;
+    font-size: 16px;
+    transition-duration: 1s;
+}	
+.header-nav-list li:hover{background-color:#FF7100;font-size:20px;}
+.top-col h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 144px;
+    font-weight: bold;
+    color: snow;
+}
+.top-col h3 {
+    text-align: center;
+    font-family: initial;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.top-input {
+    margin-top: 55px;
+}	
+.body-col-two {
+    width: 67%;
+    margin-left: 49px;
+}	
+#line {
+    height: 105px;
+    width: 112%;
+    margin-left: -39px;
+    margin-top: -7px;
+}	
+
+	
+		
+}
+
+
