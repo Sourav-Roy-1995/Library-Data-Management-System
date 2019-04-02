@@ -39,7 +39,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							  </button>
-							  <a href="http://localhost/lict_projects/index.php"><i class="fa fa-book" id="icon-one" aria-hidden="true"><span class="library-name"><span class="mega">Mega</span> Library</span></i></a>
+							  <a href="http://localhost/lict_project/index.php"><i class="fa fa-book" id="icon-one" aria-hidden="true"><span class="library-name"><span class="mega">Mega</span> Library</span></i></a>
 						</div>
 						<div class="collapse navbar-collapse" id="myNavbar">						
 							<ul class="header-nav-list nav navbar-nav">
@@ -49,6 +49,7 @@
 							  <li><a href="comment.php">Make Comments</a></li>
 							  <li><a href="view_user_comment.php">User Comments</a></li>
 							  <li><a href="admin.php">Admin Login</a></li>
+								<li><a href="total_visitor.php">Total Visitor</a></li>
 							</ul>
 						</div>	
 					  </div>

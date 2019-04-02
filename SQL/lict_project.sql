@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.8.3
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 28, 2018 at 06:15 PM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 5.6.20
+-- Generation Time: Apr 02, 2019 at 01:07 PM
+-- Server version: 10.1.36-MariaDB
+-- PHP Version: 7.2.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -93,6 +95,44 @@ INSERT INTO `comment` (`id`, `firstname`, `lastname`, `mobile`, `country`, `subj
 (3, 'Anik', 'Roy', '01848281', 'canada', 'This is anik'),
 (4, 'Anik', 'Roy', '01848281', 'canada', 'This is anik');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `unique_visitors`
+--
+
+CREATE TABLE `unique_visitors` (
+  `id` int(20) NOT NULL,
+  `date` date NOT NULL,
+  `time` varchar(100) NOT NULL,
+  `ip` text NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `region` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `unique_visitors`
+--
+
+INSERT INTO `unique_visitors` (`id`, `date`, `time`, `ip`, `city`, `region`, `country`) VALUES
+(143, '2019-04-02', '03:35:13', '::1', '', '', ''),
+(144, '2019-04-02', '03:35:16', '::1', '', '', ''),
+(145, '2019-04-02', '03:35:18', '::1', '', '', ''),
+(146, '2019-04-02', '03:58:10', '::1', '', '', ''),
+(147, '2019-04-02', '03:58:13', '::1', '', '', ''),
+(148, '2019-04-02', '04:01:37', '::1', '', '', ''),
+(149, '2019-04-02', '04:03:29', '::1', '', '', ''),
+(150, '2019-04-02', '04:03:31', '::1', '', '', ''),
+(151, '2019-04-02', '04:03:37', '::1', '', '', ''),
+(152, '2019-04-02', '04:03:43', '::1', '', '', ''),
+(153, '2019-04-02', '04:07:41', '::1', '', '', ''),
+(154, '2019-04-02', '04:07:50', '::1', '', '', ''),
+(155, '2019-04-02', '04:09:07', '::1', '', '', ''),
+(156, '2019-04-02', '04:09:11', '::1', '', '', ''),
+(157, '2019-04-02', '04:09:30', '::1', '', '', ''),
+(158, '2019-04-02', '05:01:05', '::1', '', '', '');
+
 --
 -- Indexes for dumped tables
 --
@@ -116,6 +156,12 @@ ALTER TABLE `comment`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `unique_visitors`
+--
+ALTER TABLE `unique_visitors`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -124,16 +170,26 @@ ALTER TABLE `comment`
 --
 ALTER TABLE `admin`
   MODIFY `id` int(40) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `books`
 --
 ALTER TABLE `books`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+
 --
 -- AUTO_INCREMENT for table `comment`
 --
 ALTER TABLE `comment`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `unique_visitors`
+--
+ALTER TABLE `unique_visitors`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=159;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

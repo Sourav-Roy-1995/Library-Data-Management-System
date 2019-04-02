@@ -101,5 +101,4 @@ if(isset($_POST['updatedata'])) {
 
 <?php 
     include 'includes/footer.php';
-    
 ?> 
