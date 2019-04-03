@@ -2,7 +2,7 @@
 	
 		session_start();
 								
-		$con = mysqli_connect("localhost","root","","lict_project");
+		require("connection.php");
 
 		// Check connection
 		if (mysqli_connect_errno())
@@ -20,8 +20,8 @@
 				$sql = "INSERT INTO comment". "(firstname,lastname,mobile,country,subject) ". 
 				"VALUES('$firstname','$lastname','$mobile','$country','$subject')";
 				
-				mysqli_select_db($con,'lict_project');
-				$retval = mysqli_query($con,$sql);
+				mysqli_select_db($conn,'lict_project');
+				$retval = mysqli_query($conn,$sql);
 				if($retval){
 					
 							 // echo "<script type='text/javascript'>alert('Done!')</script>";

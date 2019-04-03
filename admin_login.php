@@ -22,19 +22,15 @@
 										
 				if ($result=mysqli_query($conn,$sql))
 				// Fetch one and one row
-				while ($row=mysqli_fetch_row($result)){
-												
-										header("Location: admin_panel.php");
-										
-										}
-									
-									}
-										
-									else {
-										 mysqli_error($conn);
-										 header("Location: login_error.php");
-									}
-									
+				while ($row=mysqli_fetch_row($result)){	
+						echo "<script>window.open('admin_panel.php','_self')</script>";
+					}
+				}
+					
+				else {
+						mysqli_error($conn);
+						echo "<script>window.open('login_error.php','_self')</script>";
+					}					
 		}
 		
 		mysqli_close($conn);

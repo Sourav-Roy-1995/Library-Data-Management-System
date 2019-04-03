@@ -1,6 +1,7 @@
 <?php 
 			
 	include 'includes/header.php';
+	include 'counter/visitor_count.php';
 ?>
 
 
@@ -99,4 +100,4 @@
 	
 <?php 
 	include 'includes/footer.php';
-?>	
+?>

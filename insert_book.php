@@ -48,7 +48,7 @@
 
     if (move_uploaded_file($_FILES['file']['tmp_name'], $target)) {
         $msg = "file uploaded successfully";
-        header("Location: admin_book_list.php");
+        echo "<script>window.open('admin_book_list.php','_self')</script>";
     }
 
     else{

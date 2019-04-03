@@ -1,6 +1,7 @@
 <?php
 
-	include 'includes/header.php';
+  include 'includes/header.php';
+  include 'counter/visitor_count.php';
 
 ?>
 

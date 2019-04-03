@@ -18,9 +18,9 @@
     <link href="css/mdb.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome.min.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link href="css/responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 </head>
 
@@ -58,7 +58,3 @@
 			</div>
 		</div>
 	</div>
-	
-
-	
-	

@@ -3,6 +3,7 @@
 session_start();
 date_default_timezone_set('Asia/Dhaka');
 include 'includes/header.php';
+include 'counter/visitor_count.php';
 
         
 ?>
