@@ -39,7 +39,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							  </button>
-							  <a href="http://localhost/lict_project/index.php"><i class="fa fa-book" id="icon-one" aria-hidden="true"><span class="library-name"><span class="mega">Mega</span> Library</span></i></a>
+							  <a href="http://localhost/lict_projects/index.php"><i class="fa fa-book" id="icon-one" aria-hidden="true"><span class="library-name"><span class="mega">Mega</span> Library</span></i></a>
 						</div>
 						<div class="collapse navbar-collapse" id="myNavbar">						
 							<ul class="header-nav-list nav navbar-nav">

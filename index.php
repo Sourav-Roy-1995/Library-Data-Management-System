@@ -36,5 +36,7 @@
 	
 // $myIp = getHostByName(getHostName());
 // echo $myIp;
+// echo getHostByName(php_uname('n'));
+ 
 
 ?>
